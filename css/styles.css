@@ -1,2 +1,30 @@
-.site-naw.link.current {
-color= var(--accent-color)}
+body {
+  background-color: #fff;
+  color: rgba(255, 255, 255, 0.6;
+  }
+
+  .list {
+      list-style: none;
+  }
+
+/* цвет основного массива текста #212121 */
+/* вторичный текст #757575 */
+/* синий цвет акцент  #2196F3 */
+/* белый #FFFFFF */
+/*  rgba(255, 255, 255, 0.6  */
+
+/* nav */
+
+.site-nav:hover,
+.site-nav:focus{
+color:#2196F3;
+}
+.auth-nav:hover,
+.auth-nav:focus{
+color:#2196F3;
+}
+.item-nav:focus,
+.item-nav:hover
+ {
+    color:#2196F3;
+}
