@@ -62,8 +62,8 @@ body {
   border-radius: 4px;
 }
 
-.links:focus,
-.links:hover {
+.link-a:focus,
+.link-a:hover {
   color: #ffffff;
   background-color: #2196f3;
   border-radius: 4px;
@@ -89,14 +89,14 @@ footer {
   background: #2f303a;
 }
 
-.linku .link {
+.link-b .link {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
 
-.linka .link {
+.link-c .link {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
