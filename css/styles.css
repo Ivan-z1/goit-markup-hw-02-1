@@ -5,7 +5,7 @@ body {
 }
 /* logo */
 
-.logo .link {
+.logo.link {
   font-family: Raleway, cursive;
   font-weight: 700;
   font-size: 26px;
@@ -26,7 +26,7 @@ body {
 /* background: #2f303a; footer */
 
 /* nav */
-.site-nav .link {
+.nav-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -34,12 +34,7 @@ body {
   color: #212121;
 }
 
-.link:hover,
-.link:focus {
-  color: #2196f3;
-}
-
-.auth-nav .link {
+.nav-links {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -52,18 +47,18 @@ body {
 }
 
 /* section */
-.item-nav {
+.filter-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
-  color: #212121;
   background: #f5f4fa;
   border-radius: 4px;
+  font-family: Roboto, sans-serif;
 }
 
-.link-a:focus,
-.link-a:hover {
+.filter-button:focus,
+.filter-button:hover {
   color: #ffffff;
   background-color: #2196f3;
   border-radius: 4px;
@@ -89,14 +84,14 @@ footer {
   background: #2f303a;
 }
 
-.link-b .link {
+.link-b {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
 
-.link-c .link {
+.link-c {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
